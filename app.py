@@ -38,7 +38,7 @@ st.markdown("<h4 style='text-align: justify-center; color: white;'>Aşağıdaki 
 st.markdown("<h5 style='text-align: justify-center; color: white;'>Enter the necessary keywords in the box below, separated by a comma.</h5>", unsafe_allow_html=True)
 
 
-key_words = st.text_input("Keywordler;")
+key_words = st.text_input("Keyword")
 
 splitted_keywords = key_words.split(",")
 
@@ -48,7 +48,7 @@ original_url = "https://pubmed.ncbi.nlm.nih.gov/?term="+str(prepared_keywords)+"
 
 
 
-if st.button("Analiz et"):
+if st.button("Ara - Search"):
         
         result = scraper(original_url)
 
