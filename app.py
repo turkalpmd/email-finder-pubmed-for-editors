@@ -52,9 +52,9 @@ if st.button("Ara - Search"):
         
         result = scraper(original_url)
 
-        if result(len) < 1 :
+        if len(result) < 1 :
 
-            st.success("Yeni anahtar kelimeler bulun - Try new keywords")
+            st.success("Yeni anahtar kelime deneyiniz - Try out a new keyboard")
 
         else:
             
