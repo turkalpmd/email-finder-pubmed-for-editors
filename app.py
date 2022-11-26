@@ -30,12 +30,12 @@ with col3:
 #st.markdown("[![Foo](https://www.ncbi.nlm.nih.gov/corehtml/pmc/pmcgifs/logo-jpic.png)](http://worldpediatricsociety.org/jpic/index.html)")
 
 # Introduction
-st.markdown("<h4 style='text-align: center; color: white;'>Belli anahtar sözcüklerle Pubmed üzerinden konu ile ilgili hakemlerin maillerine ulaşabilirsin</h4>", unsafe_allow_html=True)
-st.markdown("<h7 style='text-align: center; color: gray;'>Using specific keywords, you can find the e-mail addresses of the authors on the relevant subject on Pubmed. </h7>", unsafe_allow_html=True)
+st.markdown("<center><h4 style=color: white;'>Belli anahtar sözcüklerle Pubmed üzerinden konu ile ilgili hakemlerin maillerine ulaşabilirsin</h4></center>", unsafe_allow_html=True)
+st.markdown("<center><h7 style= color: gray;'>Using specific keywords, you can find the e-mail addresses of the authors on the relevant subject on Pubmed.</h7></center>", unsafe_allow_html=True)
 
 # Simple Rule
-st.markdown("<h7 style='text-align: center; color: white;'>Aşağıdaki kutucuğa ilgili keywordleri aralarına virgül koyarak giriniz</h7>", unsafe_allow_html=True)
-st.markdown("<h7 style='text-align: center; color: gray;'>Enter the necessary keywords in the box below, separated by a comma.</h7>", unsafe_allow_html=True)
+st.markdown("<center><h7 style= color: white;'>Aşağıdaki kutucuğa ilgili keywordleri aralarına virgül koyarak giriniz</h7></center>", unsafe_allow_html=True)
+st.markdown("<center><h7 style= color: gray;'>Enter the necessary keywords in the box below, separated by a comma.</h7></center>", unsafe_allow_html=True)
 
 
 key_words = st.text_input("Keyword")
