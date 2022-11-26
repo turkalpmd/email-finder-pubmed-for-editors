@@ -34,8 +34,8 @@ st.markdown("<h4 style='text-align: center; color: white;'>Belli anahtar sözcü
 st.markdown("<h7 style='text-align: center; color: gray;'>Using specific keywords, you can find the e-mail addresses of the authors on the relevant subject on Pubmed. </h7>", unsafe_allow_html=True)
 
 # Simple Rule
-st.markdown("<h6 style='text-align: center; color: white;'>Aşağıdaki kutucuğa ilgili keywordleri aralarına virgül koyarak giriniz</h6>", unsafe_allow_html=True)
-st.markdown("<h9 style='text-align: center; color: white;'>Enter the necessary keywords in the box below, separated by a comma.</h9>", unsafe_allow_html=True)
+st.markdown("<h7 style='text-align: center; color: white;'>Aşağıdaki kutucuğa ilgili keywordleri aralarına virgül koyarak giriniz</h7>", unsafe_allow_html=True)
+st.markdown("<h7 style='text-align: center; color: gray;'>Enter the necessary keywords in the box below, separated by a comma.</h7>", unsafe_allow_html=True)
 
 
 key_words = st.text_input("Keyword")
