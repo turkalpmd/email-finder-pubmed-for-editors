@@ -60,7 +60,7 @@ if st.button("Ara - Search"):
             
             st.success(result)
 
-st.markdown("[![Foo](https://cdn.ncbi.nlm.nih.gov/pubmed/bb4dbd9c-a268-461f-bd04-a93af5e9df18/core/images/pubmed-logo-white.svg)](https://pubmed.ncbi.nlm.nih.gov/)")        
+st.markdown("[![Foo](https://cdn.ncbi.nlm.nih.gov/pubmed/2143cb41-336a-42ba-aeb0-6ba659a86e4f/core/images/pubmed-logo-white.svg)](https://pubmed.ncbi.nlm.nih.gov/)")        
 
 
 
